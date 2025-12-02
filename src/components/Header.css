@@ -1,8 +1,16 @@
-header {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.3rem 15.6rem;
+  max-width: 120rem;
+  margin: auto;
+  width: 100%;
+}
+
+.logo-img {
+  width: 20rem;
+  height: 6rem;
 }
 
 .btn-primary {
