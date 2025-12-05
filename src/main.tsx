@@ -10,7 +10,7 @@ createRoot(document.getElementById("root")!).render(
     <div className="flex flex-col bg-[#f4fbff] h-screen">
       <Header />
       <div className="flex-1 max-w-[1200px] w-full m-auto">
-        <Filter />
+        <Filter title="teste propriedade" />
       </div>
       <Footer />
     </div>
