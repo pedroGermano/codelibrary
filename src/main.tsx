@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")!).render(
           title="Busque o conteúdo que deseja assitir hoje"
           placeholder="Curso de react"
         />
-        <div className="bg-white rounded-md py-2 mt-4">
+        <div className="bg-white rounded-md py-4 mt-4">
           <h2 className="text-[#00A2F7] text-[26px] font-bold text-center">
             Os cursos mais buscados
           </h2>
@@ -26,16 +26,16 @@ createRoot(document.getElementById("root")!).render(
               image="./react.png"
             />
             <Card text="Fundamentos de Node.js" time="9h" image="./node.png" />
-            <Card text="Fundamentos de Next.js" time="9h" image="./react.png" />
+            <Card text="Fundamentos de Next.js" time="9h" image="./Next.png" />
             <Card
-              text="Fundamentos de Tailwind"
+              text="Fundamentos de TailwindCSS"
               time="9h"
-              image="./react.png"
+              image="./Vector.png"
             />
             <Card
-              text="Fundamentos de Tailwind"
+              text="Fundamentos de Vue.js"
               time="9h"
-              image="./react.png"
+              image="./vue-no-bg.png"
             />
           </div>
         </div>
