@@ -1,3 +1,5 @@
+import { Button } from "./Button";
+
 type CardProps = {
   text: string;
   time: string;
@@ -12,12 +14,7 @@ export function Card({ text, time, image }: CardProps) {
       </div>
       <p className="text-[#00A2F7] text-sm font-bold mt-2">{text}</p>
       <p className="text-[#00A2F7] text-sm font-normal mt-1">{time}</p>
-      <button
-        className="w-full h-10 text-white bg-[#00A2F7] 
-        hover:bg-[#0395e4] rounded-sm cursor-pointer mt-1"
-      >
-        Inscreva-se
-      </button>
+      <Button titleBtn="Inscreva-se" />
     </div>
   );
 }

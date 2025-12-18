@@ -5,6 +5,7 @@ import { Header } from "./components/Header.tsx";
 import { Filter } from "./components/Filter.tsx";
 import { Card } from "./components/Card.tsx";
 import { Footer } from "./components/Footer.tsx";
+import { Info } from "./components/Info.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -39,6 +40,7 @@ createRoot(document.getElementById("root")!).render(
             />
           </div>
         </div>
+        <Info />
       </main>
       <Footer />
     </div>
